@@ -11,7 +11,7 @@ namespace GameProject
         static void Main(string[] args)
         {
             GamerManager gamerManager=new GamerManager(new MernisServiceAdapter());
-            gamerManager.Save(new Gamer() { DateOfBirth = new DateTime(1985, 1, 7), FirstName = "Serpil", LastName = "Azman", IdentityNumber = 41104608150 });
+            gamerManager.Save(new Gamer() { DateOfBirth = new DateTime(1984, 1, 7), FirstName = "Serpil", LastName = "Azman", IdentityNumber = 12345367876 });
 
 
             Gamer gamer1 = new Gamer();
